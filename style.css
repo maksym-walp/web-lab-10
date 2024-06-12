@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+
+body{
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 500;
+    font-style: normal;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1vh 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(209, 237, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.4vh;
+    border-radius: 2vh;
+    font-weight: 600;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 0 1.5vh;
+    width: 80vh;
+}
+
+.log{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: start;
+    padding: 0 1vh 0 3vh;
+}
+
+.middleTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+.logos{
+    width: 15vh;
+    margin-left: 1.3vh;
+}
+
+
+main{
+    background-color: rgb(209, 237, 255);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    font-size: 2.2vh;
+    border-radius: 2vh;
+
+}
+
+.mainAndAd{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.mainPart{
+    flex: 1;
+}
+
+.advertise1{
+    flex-basis: 30%;
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advertise2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.advertise2 div{
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    width: 33%;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 3vh 2vh; 
+    justify-content: space-between;
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+
+}
+
+.hobby-column{
+    display: flex;
+    margin: 1vh;
+    padding: 1.4vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    flex-direction: column;
+    width: 33%;
+    border-radius: 2vh;
+
+}
+
+.hobby-block{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hobby-page{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+ 
+.images{
+    width: 30vh;
+    border-radius: 2vh;
+}
+
+
+.hobby{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hobby-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advertise2 div{
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    width: 33%;
+    border-radius: 2vh;
+}
+
+.hobby-flex{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh; 
+    width: 33%;
+}
+
+.hobbyInfo a{
+    align-items: end;
+}
+
+h1{
+    margin: 1vh;
+    padding: 3vh 2vh; 
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+}
+
+.bio{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 1vh;
+    padding: 20px 1vh;
+    background-color: rgb(194, 220, 237);
+    justify-content: center;
+    border-radius: 2vh;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 3vh; 
+    justify-content: space-between;
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+}
+
+.bio img{
+    width: 35vh;
+    margin-right: 10vh;
+}
+
+.interesting-column{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 10vh;
+}
+
+.foto-box{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    justify-content: space-between;
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+}
+
+.baner-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 10vh 0;
+    padding: 0 3vh;
+}
+
+.baner-flex {
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pictures,
+.text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.text {
+	gap: 10vh;
+}
+
+.pictures {
+	gap: 1vh;
+}
+
+.pictures-baner {
+	max-width: 33vh;
+	object-fit: contain;
+}
+
+.text-baner {
+	font-size: 5vh;
+}
+
+.custom-context-menu {
+    position: absolute;
+    background-color: #a1ecfe;
+    border-radius: 2vh;
+}
+
+.custom-context-menu div {
+    text-align: center;
+    padding: 1.5vh 6vh;
+    cursor: pointer;
+}
+
+.custom-context-menu div:hover {
+    border: 2px solid #6b36b1; 
+    border-radius: 2vh;
+
+}
+
+@media screen and (max-width:1200px){
+    .logos{
+        display: none;
+    }
+    .mainPart{
+        width: 100%;
+    }
+    .mainAndAd{
+        grid-template-columns: 100%;
+    }
+    .advertise1{
+        flex-grow: 1;
+        width: auto;
+    }
+    .advertise2 div{
+        flex-grow: 1;
+        width: auto;
+    }
+    .advertise2{
+        flex-direction: column;
+    }
+    .hobby-page{
+        grid-template-columns: 100%;
+    }
+    .hobbies{
+        flex-grow: 1;
+        width: auto;
+    }
+
+    .hobby-block{
+        flex-direction: column;
+    }
+    .hobby-column{    
+        flex-grow: 1;
+        width: auto;
+    }
+    .hobby-add{
+        flex-grow: 1;
+        width: auto;
+    }
+    .hobby{
+        flex-direction: column;
+    }
+    .hobby-flex{
+        flex-direction: row;
+        flex-grow: 1;
+        width: auto;
+    }
+    .bio{
+        grid-template-columns: 30% 70%;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle{
+        display: none;
+    }
+    .foto-box img {
+        display: block; 
+        width: 100%;
+        margin: 1vh 0;
+    }
+    .foto-box {
+        grid-template-columns: 100%;
+    }
+    .interesting-column{
+        margin: 0;
+    }
+    .bio{
+        grid-template-columns: 50% 50%;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .block{
+        flex-direction: column;
+    }
+    .bio{
+        grid-template-columns: 100%;
+    }
+    .bio img{
+        display: block; 
+        width: 100%;
+        margin: 1vh 0;
+    }
+}
